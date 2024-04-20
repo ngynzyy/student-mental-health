@@ -6,7 +6,7 @@ from joblib import load
 
 st.markdown("<h1 style='text-align: center; color: #FA5F55;'>DEPRESSION PREDICTION</h1>", unsafe_allow_html=True)
 
-model = load('./logistic_model.joblib')
+model = load('./model/logistic_model.joblib')
 
 gender = st.radio(':busts_in_silhouette: Your gender:',
                   ('Male', 'Female')
